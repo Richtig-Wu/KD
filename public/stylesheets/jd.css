@@ -1,0 +1,613 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-size: 16px;
+  font-family: "微软雅黑";
+}
+
+input, button {
+  outline: none;
+}
+
+body {
+  background-color: #f6f6f6;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+}
+
+button {
+  cursor: pointer;
+}
+
+.center {
+  width: 1190px;
+  margin: 0 auto;
+}
+
+.header {
+  padding-left: 200px;
+  width: 990px;
+}
+
+#red {
+  color: red;
+  padding-left: 6px;
+}
+
+
+/*头部布局*/
+
+.head-top {
+  height: 31px;
+  line-height: 31px;
+  color: #a1a3a6;
+}
+
+.header-top {
+  height: 171px;
+}
+
+.header-center {
+  height: 480px;
+  /*background-color: green;*/
+}
+
+.header-top-top {
+  width: 100%;
+  height: 31px;
+  background-color: #e3e4e5;
+}
+
+.header-top-center {
+  height: 80px;
+  /*background-color: yellow;*/
+}
+
+.header-top-bottom {
+  height: 60px;
+  /*background-color: pink;*/
+  position: relative;
+}
+
+
+/*头部header-top样式*/
+
+.header-top-top img {
+  width: 190px;
+  height: 171px;
+  float: left;
+  box-shadow: 1px 2px 5px 0 #a1a2a3;
+}
+
+.header-top span#beijin {
+  width: 60px;
+  height: 31px;
+  line-height: 30px;
+  float: left;
+  background: url(/images/imges/beijin.png) no-repeat 0 5px;
+}
+
+.header-top span a {
+  margin-left: 20px;
+  font-size: 12px;
+  color: #a1a2a6;
+}
+
+.header-top span#beijin:hover {
+  display: inline-block;
+  background-color: #fff;
+}
+
+.header-top ul {
+  float: right;
+}
+
+.header-top ul li {
+  font-size: 12px;
+  font-family: "微软雅黑";
+}
+
+.header-top ul li {
+  float: left;
+  padding-right: 15px;
+}
+
+.header-top ul li a {
+  color: #a1a3a6;
+  font-size: 12px;
+  font-family: "微软雅黑";
+}
+
+.header-top ul li a:hover {
+  color: red;
+}
+
+.ewm {
+  height: 68px;
+  float: right;
+  position: relative;
+}
+
+.ewm img {
+  /*padding-top: 31px;*/
+  position: absolute;
+  top: 31px;
+  left: -73px;
+}
+
+
+/*搜索框*/
+
+.header-top-center {
+  position: relative;
+}
+
+.put {
+  position: absolute;
+  top: 25px;
+  left: 320px;
+}
+
+.put input {
+  border: 1px solid red;
+  width: 497px;
+  height: 33px;
+  line-height: 33px;
+  float: left;
+  padding-left: 3px;
+  font-size: 14px;
+  color: #a1a2a3;
+}
+
+.put input:hover {}
+
+.put button {
+  width: 50px;
+  height: 35px;
+  background-color: red;
+  border: none;
+  float: left;
+  cursor: pointer;
+}
+
+#put {
+  position: absolute;
+  top: 7px;
+  right: 62px;
+}
+
+#soping {
+  position: absolute;
+  top: 25px;
+  right: 100px;
+}
+
+.put-nav {
+  float: left;
+  position: absolute;
+  top: 62px;
+  left: 315px;
+}
+
+.put-nav ul li {
+  padding-right: 10px;
+}
+
+
+/*header-bottom*/
+
+.header-top-bottom {
+  margin-top: 10px;
+}
+
+.header-top-bottom ul {
+  float: left;
+  margin-left: 18px;
+  padding-right: 55px;
+}
+
+.header-top-bottom ul li {
+  height: 50px;
+  line-height: 50px;
+  padding-left: 14px;
+}
+
+.header-top-bottom ul li a {
+  color: #464547;
+  font-size: 16px;
+  font-family: "微软雅黑";
+  font-weight: bold;
+}
+
+.header-top-bottom font#Go {
+  width: 192px;
+  height: 41px;
+  border: none;
+  cursor: pointer;
+}
+
+
+/*left内容左侧*/
+
+.lf {
+  float: left;
+  height: 480px;
+}
+
+.left {
+  width: 190px;
+  background-color: #6e6568;
+  color: #fff;
+}
+
+.left ul {}
+
+.left ul li {
+  width: 180px;
+  height: 28px;
+  line-height: 28px;
+  float: left;
+  padding-left: 10px;
+}
+
+.left ul li a {
+  color: #fff;
+  font-size: 14px;
+}
+
+.left ul li a:hover {
+  color: rgb(238, 58, 75);
+}
+
+.left ul li span {
+  padding-left: 3px;
+}
+
+.left ul li:hover {
+  background-color: #a1a3a6;
+}
+
+
+/*sction 内容中部*/
+
+.sction {
+  width: 790px;
+  /*background-color: blue;*/
+  margin-left: 10px;
+}
+
+.sction-banner {
+  margin-bottom: 10px;
+  width: 790px;
+  height: 340px;
+  background: url(/images/imges/banner.jpg);
+  margin-bottom: 10px;
+}
+
+.sb {
+  width: 390px;
+  height: 130px;
+}
+
+.lr {
+  width: 41px;
+  height: 68px;
+  margin-top: 126px;
+}
+
+.l {
+  float: left;
+}
+
+.r {
+  float: right;
+}
+
+.sction .z:hover {
+  background-image: url(/images/imges/l1.png);
+}
+
+.sction .y:hover {
+  background-image: url(/images/imges/r1.png);
+}
+
+
+/*right 内容右侧*/
+
+.right {
+  width: 190px;
+  background-color: #fff;
+  margin-left: 10px;
+}
+
+.right-top {
+  width: 170px;
+  height: 116px;
+  padding: 0 10px;
+}
+
+.yonghu {
+  width: 50px;
+  height: 50px;
+  background: url(/images/imges/yonghu.png);
+  border-radius: 23px;
+  background-position: -70px 0;
+  border: none;
+}
+
+.yonghu img {
+  width: 37px;
+  height: 37px;
+  border-radius: 23px;
+  margin: 2px 0 0 1px;
+}
+
+.right-top span {
+  font-size: 12px;
+  font-family: "微软雅黑";
+}
+
+.right-top-top {
+  margin-top: 10px;
+  position: relative;
+}
+
+.right-top-top ul {
+  width: 140px;
+  float: left;
+  position: absolute;
+  top: -2px;
+  right: -25px;
+}
+
+.right-top-top ul li {
+  float: left;
+  padding-right: 10px;
+}
+
+.right-top-top ul li a {
+  font-size: 12px;
+  font-family: "微软雅黑";
+  color: rgb(61, 64, 62);
+}
+
+.right-top-top ul li a:hover {
+  color: red;
+}
+
+.right-top-bottom button {
+  margin: 15px 6px 0;
+  width: 70px;
+  height: 24px;
+  line-height: 20px;
+  border: 2px solid red;
+  background-color: #fff;
+  font-size: 12px;
+  color: red;
+  font-family: "黑体";
+}
+
+.right-top-bottom button:hover {
+  background-color: red;
+  color: #fff;
+  border: none;
+}
+
+.right-center {
+  height: 154px;
+  /*background:blue;*/
+  border-top: 1px solid #e1e5ed;
+  padding: 0 14px;
+  margin-top: -10px;
+}
+
+.bt {
+  width: 160px;
+  padding-top: 4px;
+  height: 26px;
+  border-bottom: 1px solid #e1e5ed;
+}
+
+.bt-l {
+  height: 26px;
+  line-height: 26px;
+  color: rgb(98, 98, 96);
+}
+
+.bt-l span {
+  font-family: "微软雅黑";
+  font-size: 13px;
+  margin: 0 3px;
+  color: rgb(82, 107, 105);
+  float: left;
+}
+
+.bt-l span:hover {
+  border-bottom: 2px solid red;
+  cursor: pointer;
+}
+
+.bt-l a {
+  font-size: 13px;
+  color: rgb(75, 85, 73);
+  height: 27px;
+  line-height: 27px;
+  float: right;
+}
+
+#sp {
+  width: 1px;
+  display: inline-block;
+  height: 12px;
+  background-color: #e1e5ed;
+  margin-top: 5px
+}
+
+.bt-l a:hover {
+  color: red;
+  cursor: pointer;
+}
+
+.bt-bottom {
+  padding: 10px;
+}
+
+.bt-bottom li {
+  height: 23px;
+}
+
+.bt-bottom a {
+  font-size: 12px;
+  font-family: "微软雅黑";
+  color: rgb(62, 74, 63);
+}
+
+.bt-bottom a:hover {
+  color: red;
+}
+
+.right-bottom {
+  height: 207px;
+}
+
+.right-bottom ul {}
+
+.right-bottom li {
+  width: 46px;
+  height: 48px;
+  padding: 10px 0;
+  float: left;
+  border-top: 1px solid #a1a2a6;
+  border-right: 1px solid #a1a2a6;
+  text-align: center;
+}
+
+.right-bottom .r-b {
+  border-right: none;
+}
+
+.right-bottom li a {
+  /*font-size: 12px;
+  /*font-family: "微软雅黑";*/
+  color: rgb(69, 82, 79);
+  /*margin-top: 48px;*/
+  */
+}
+
+.text {
+  font-size: 12px;
+  font-family: "微软雅黑";
+  height: 22px;
+  line-height: 22px;
+}
+
+.text:hover {
+  color: red;
+}
+
+.right-bottom div {
+  width: 24px;
+  height: 24px;
+  /*background-color: red;*/
+  margin-left: 10px;
+  background-image: url(/images/imges/youce.png);
+}
+
+.r1 {
+  background-position: -88px 0px;
+}
+
+.r2 {
+  background-position: -88px -44px;
+}
+
+.r3 {
+  background-position: -44px -88px;
+}
+
+.r4 {
+  background-position: -88px 0;
+}
+
+.r5 {
+  background-position: -88px -44px;
+}
+
+.r6 {
+  background-position: 0px 0px;
+}
+
+.r7 {
+  background-position: -44px -44px;
+}
+
+.r8 {
+  background-position: -132px 0px;
+}
+
+.r9 {
+  background-position: -132px -44px;
+}
+
+.r10 {
+  background-position: -132px -88px;
+}
+
+.r11 {
+  background-position: -132px -44px;
+}
+
+.r12 {
+  background-position: -44px 0px;
+}
+
+
+/*生鲜小龙虾*/
+
+.header-top-bottom .shengxian {
+  position: absolute;
+  top: -6px;
+  right: 434px;
+}
+
+
+/*banner底部的点*/
+
+.sction-banner {
+  position: relative;
+}
+
+.b {
+  height: 19px;
+}
+
+.b ul {
+  width: 233px;
+  height: 22px;
+  position: absolute;
+  bottom: 15px;
+  left: 18em;
+  background: rgba(160, 162, 164, 0.38);
+  border-radius: 23px;
+}
+
+.sction-banner div li {
+  width: 14px;
+  height: 14px;
+  background: #fff;
+  /*display: inline-block;*/
+  float: left;
+  margin: 4px 0 0 13.5px;
+  border-radius: 23px;
+}
+
+.sction-banner div li:hover {
+  background: red;
+  cursor: pointer;
+}

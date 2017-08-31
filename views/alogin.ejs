@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>后台登录</title>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="https://cdn.bootcss.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet">
+
+<style>
+  .alogin{
+    position:absolute;
+    top: 30%;
+    left: 50%;
+    transform:translate(-50%,-30%);
+    max-width:500px;
+    min-width: 300px;
+    border:1px solid gray;
+  }
+  input{
+    margin: 20px;
+  }
+</style>
+
+</head>
+<body>
+
+  <div class="alogin container">
+    <h1 class="text-center" style="margin-bottom:50px;"><%= title %></h1>
+    <form class="form-horizontal">
+      <div class="form-group">
+        <label class="col-sm-2 control-label" style="dispaly:block">Name</label><br></br>
+        <div class="col-sm-10">
+          <input type="text" class="form-control"  placeholder="Name" name="name">
+        </div>
+      </div>
+      <div class="form-group">
+        <label for="inputPassword3" class="col-sm-2 control-label">Password</label><br><br>
+        <div class="col-sm-10">
+          <input type="password" class="form-control" id="inputPassword3" placeholder="Password">
+        </div>
+      </div>
+
+      <div class="form-group">
+        <div class="col-sm-offset-2 col-sm-10">
+          <button type="submit" style="">Sign in</button>
+        </div>
+      </div>
+    </form>
+  </div>
+</body>
+</html>

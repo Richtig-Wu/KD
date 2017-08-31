@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<head>
+  <title><%= title %></title>
+
+</head>
+<style media="screen">
+  *{
+    margin:0;
+    padding: 0;
+  }
+  h3{
+    /*text-align: center;*/
+    font-size: 16px;
+    margin-bottom: 10px;
+  }
+  select{
+    width: 100px;
+    margin: 25px 0;
+    }
+
+  textarea{
+    width: 400px;
+  }
+  button{
+    width: 402px;
+  }
+  .mes{
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%,-30%);
+  }
+</style>
+<html>
+    <body>
+    <div class="mes">
+      <h3><%= title %></h3>
+      <div class="container text-center">
+        <form class="" action="/mess" method="post">
+
+         <p>
+        问题类型:
+        <select name="selects">
+          <option value="Html5" name="Html5">Html5</option>
+          <option value="Node.js" name="Node.js">Node.js</option>
+          <option value="Mongodb" name="Mongodb">Mongodb</option>
+          <option value="Css3" name="Css3">Css3</option>
+          <option value="aaa" name="wusuoweila">aaa</option>
+        </select>
+        </p>
+        <p>
+          <textarea name="user_quiz" rows="10" cols="80" ></textarea>
+        </p>
+          <button type="submit">提交</button>
+        </form>
+      </div>
+    </div>
+    </body>
+
+</html>
